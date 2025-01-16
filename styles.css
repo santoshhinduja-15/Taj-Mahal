@@ -1,0 +1,209 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Subtle gray background for a professional look */
+    color: #333; /* Dark text for readability */
+}
+
+h1, h2, h3 {
+    color: #222; /* Slightly darker text for headings */
+    font-family: 'Georgia', serif;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #4caf50; /* Green color for freshness and nature */
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.3);
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ffffff;
+    color: #4caf50; /* Green to match the hero section */
+    padding: 12px 24px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: 2px solid #4caf50;
+}
+
+.cta-button:hover {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Destination Details Section */
+.destination-details {
+    background-color: white;
+    color: #333;
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.destination-details h2 {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+}
+
+.destination-details p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.destination-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 1.1em;
+}
+
+.destination-details li {
+    margin-bottom: 10px;
+}
+
+/* Image Gallery Section */
+.image-gallery {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.image-gallery h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Call to Action Section */
+.cta {
+    background-color: #ff6347; /* Soft orange for call to action */
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cta h2 {
+    font-size: 2.3em;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ffffff;
+    color: #ff6347;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: 2px solid #ff6347;
+}
+
+.cta-button:hover {
+    background-color: #ff6347;
+    color: white;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+    }
+
+    .cta-button {
+        font-size: 1em;
+    }
+
+    .destination-details h2 {
+        font-size: 2em;
+    }
+
+    .image-gallery h2 {
+        font-size: 2em;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cta h2 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 0.9em;
+    }
+
+    .destination-details li {
+        font-size: 1em;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .cta h2 {
+        font-size: 1.8em;
+    }
+}
