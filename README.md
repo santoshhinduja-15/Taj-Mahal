@@ -14,5 +14,9 @@ This project features a responsive webpage that showcases the Taj Mahal, one of 
 
 ## Installation
 1. Clone the repository:
-   ```bash
    git clone https://github.com/santoshhinduja-15/Taj-Mahal.git
+
+![image](https://github.com/user-attachments/assets/e578b868-1015-4c1e-8423-7bf1602d48e6)
+![image](https://github.com/user-attachments/assets/8cab34e1-a6aa-4095-92c4-af8dccda6241)
+![image](https://github.com/user-attachments/assets/4f053adf-2022-4964-86d5-eaa2fb8a87b0)
+![image](https://github.com/user-attachments/assets/fa68d1e5-5cc4-4b98-a658-bf81a199dc0f)
